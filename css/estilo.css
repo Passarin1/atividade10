@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+/* Estilos gerais */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header, #principal, #second, #contato, #stream {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+header {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo img {
+  height: 50px;
+}
+
+nav {
+  margin: 0;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.item-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.item-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Links de menu com cores específicas */
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.link-menu.f {
+  background-color: #5b305a;
+}
+
+.link-menu.l {
+  background-color: #e49756;
+}
+
+.link-menu.m {
+  background-color: #e04b5a;
+}
+
+main {
+  background-color: #333;
+  color: #ddd;
+  padding: 40px;
+  max-width: 1200px;
+}
+
+#principal {
+  display: flex;
+  gap: 20px;
+}
+
+#principal figure {
+  width: 50%;
+}
+
+#principal img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#sec_ctd {
+  width: 50%;
+}
+
+#sec_ctd h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+#sec_ctd p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC', cursive;
+  color: #fff;
+}
+
+/* Seção secundária */
+#second {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+#second a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cartaz {
+  width: 30%;
+  text-align: center;
+}
+
+.cartaz img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+#email a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#email a:hover {
+  text-decoration: underline;
+}
+
+#social a img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+#social a img:hover {
+  opacity: 0.7;
+}
+
+/* Estilos específicos da página Filme */
+.f {
+  background-color: #5b305a;
+}
+
+#principal img {
+  border-radius: 0;
+}
+
+#sinopse {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+#sinopse b {
+  display: block;
+  margin-top: 10px;
+}
+
+#descricao iframe {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+#acesso a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#acesso a:hover {
+  text-decoration: underline;
+}
