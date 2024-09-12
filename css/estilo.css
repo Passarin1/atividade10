@@ -3,27 +3,32 @@
 /* Estilos gerais */
 body {
   font-family: 'Poppins', sans-serif;
-  margin: 0;
+  margin: 10px;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   color: #333;
+  
 }
 
 header, #principal, #second, #contato, #stream {
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 20px;
-  max-width: 1200px;
+  max-width: 1000px;
+  text-align:left right;
+  display: flex;
+  justify-content: space-between;
 }
 
 header {
-  background-color: #333;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
 }
 
 #logo img {
-  height: 50px;
+  height: 100px;
 }
 
 nav {
@@ -35,6 +40,7 @@ nav {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -73,24 +79,31 @@ main {
   color: #ddd;
   padding: 40px;
   max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #principal {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 #principal figure {
-  width: 50%;
+  flex: 1;
+  text-align: center;
 }
 
 #principal img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
 }
 
 #sec_ctd {
-  width: 50%;
+  flex: 1;
 }
 
 #sec_ctd h1 {
@@ -113,7 +126,9 @@ h1, h2 {
 #second {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 20px 0;
+  
 }
 
 #second a {
@@ -128,6 +143,7 @@ h1, h2 {
 
 .cartaz img {
   width: 100%;
+  height: auto;
   border-radius: 8px;
 }
 
