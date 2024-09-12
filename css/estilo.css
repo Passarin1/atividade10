@@ -127,7 +127,10 @@ h1, h2 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 20px 0;
+  padding: 200px 0;
+  align-items: center;
+  object-position: 100px;
+  object-fit: contain;
   
 }
 
@@ -176,7 +179,9 @@ footer {
 /* Estilos específicos da página Filme */
 .f {
   background-color: #5b305a;
-}
+  display: flexbox;
+  justify-content: center;  
+  }
 
 #principal img {
   border-radius: 0;
@@ -208,4 +213,23 @@ footer {
 
 #acesso a:hover {
   text-decoration: underline;
+}
+#descricao{
+  width: 300px;
+  height: auto;
+  border: 1px solid;
+  padding: 10px 0px 0px 0px;
+}
+#acesso{
+  width: 200px;
+  height: 100px;
+  border: 1px solid;
+  text-align: center;
+  background-color:rgb(235, 188, 101);
+  color: #fff;
+  font-family:'Times New Roman', Times, serif ;
+  padding: 20px 10px 0px 0px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  
 }
