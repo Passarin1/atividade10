@@ -71,16 +71,23 @@ nav {
 }
 
 .link-menu.m {
-  background-color: #e04b5a;
+  background-color: #e64858;
 }
 
 main {
-  background-color: #333;
+  background-color: #e49937;
   color: #ddd;
   padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+}
+main.m {
+  background-color: #e64858;
+
+}
+#acesso.m {
+  background-color: #e64858;
 }
 
 #principal {
@@ -179,7 +186,6 @@ footer {
 /* Estilos específicos da página Filme */
 .f {
   background-color: #5b305a;
-  display: flexbox;
   justify-content: center;  
   }
 
@@ -198,9 +204,10 @@ footer {
 }
 
 #descricao iframe {
-  width: 100%;
+  width: 300px;
   max-width: 600px;
-  height: auto;
+  height: 300px;
+  align-items: center;
 }
 
 #acesso a {
@@ -209,26 +216,25 @@ footer {
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
+  width: 200px;
 }
 
 #acesso a:hover {
   text-decoration: underline;
 }
 #descricao{
-  width: 300px;
-  height: auto;
+  width: 100px;
+  height: 250px;
   border: 1px solid;
-  padding: 10px 0px 0px 0px;
+  padding: 100px 300px 300px 100px;
 }
 #acesso{
-  width: 200px;
-  height: 100px;
   border: 1px solid;
   text-align: center;
-  background-color:rgb(235, 188, 101);
-  color: #fff;
+  background: chocolate;
+  color: #ffffff;
   font-family:'Times New Roman', Times, serif ;
-  padding: 20px 10px 0px 0px;
+  padding: 20px 10px 20px 10px;
   margin-bottom: 10px;
   border-radius: 5px;
   
